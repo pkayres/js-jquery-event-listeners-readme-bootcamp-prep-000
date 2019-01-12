@@ -1,6 +1,8 @@
 //define functions here
 function getIt(){
-
+  $('p').on("click", function (){
+    alert("Hey!")
+  })
 };
 function frameIt(){
   $('img').on('load', function(){
@@ -19,9 +21,7 @@ $(document).ready(function(){
 
 });
 
-$('p').on("click", function (){
-  alert("Hey!")
-})
+
 
 $('form').on('keydown', function(key) {
   if(key.which == 71){
