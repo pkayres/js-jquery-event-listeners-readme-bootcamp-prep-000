@@ -11,10 +11,11 @@ function frameIt(){
 };
 function pressIt(){
   $('form').on('keydown', function() {
-    if ($("input:first" ).val( === "g"){
+    if ($("input:first").val() === "g"){
           alert('g was pressed');
-      })
-};
+          return;
+      }
+});
 // function submitIt(){
 //   $('form').on('submit', function() {
 //       alert('your form is going to be submitted now.');
