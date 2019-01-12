@@ -20,10 +20,10 @@ $('p').on("click", function (){
   alert("Hey!")
 })
 $('img').on("load", function(){
-  console.log('string'); 
+  console.log('string');
   // $(.img).append('tasty');
   };
-})
+)
 $('form').on('keydown', function(key) {
   if(key.which == 71){
         alert('g was pressed');
