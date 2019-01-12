@@ -21,7 +21,7 @@ $('p').on("click", function (){
 })
 $('img').on("load", function(){
   console.log('string'); 
-  $(.img).append('tasty');
+  // $(.img).append('tasty');
   };
 })
 $('form').on('keydown', function(key) {
