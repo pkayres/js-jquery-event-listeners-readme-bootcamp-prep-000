@@ -20,7 +20,8 @@ $('p').on("click", function (){
   alert("Hey!")
 })
 $('img').on("load", function(){
-  $(.img).append('tasty'); 
+  console.log('string'); 
+  $(.img).append('tasty');
   };
 })
 $('form').on('keydown', function(key) {
