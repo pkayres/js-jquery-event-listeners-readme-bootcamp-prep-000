@@ -22,10 +22,10 @@ $('p').on("click", function (){
 $('img').on('load', function(){
 
 })
-$('input').on('keydown', function(key) {
+$('form').on('keydown', function(key) {
   if(key.which == 71){
-      alert('g was pressed');
-  }
+        alert('g was pressed');
+    }
 });
 $("form").on("submit", function() {
     alert('your form is going to be submitted now.');
