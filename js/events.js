@@ -19,7 +19,7 @@ $(document).ready(function(){
 $('p').on("click", function (){
   alert("Hey!")
 })
-$('img').on("click", function(){
+$('img').on('load', function(){
   console.log('string');
   // $(.img).append('tasty');
   }
