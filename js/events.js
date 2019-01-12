@@ -20,7 +20,9 @@ $('p').on("click", function (){
   alert("Hey!")
 })
 $('img').on("load", function(){
-  'tasty'; 
+  if('img'){
+    return 'tasty'
+  };
 })
 $('form').on('keydown', function(key) {
   if(key.which == 71){
