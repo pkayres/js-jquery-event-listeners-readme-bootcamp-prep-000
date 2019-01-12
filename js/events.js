@@ -3,7 +3,10 @@ function getIt(){
 
 };
 function frameIt(){
-
+  $('img').on('load', function(){
+    $('img').addClass('tasty');
+    }
+  )
 };
 function submitIt(){
 
@@ -19,10 +22,7 @@ $(document).ready(function(){
 $('p').on("click", function (){
   alert("Hey!")
 })
-$('img').on('load', function(){
-  $('img').addClass('tasty');
-  }
-)
+
 $('form').on('keydown', function(key) {
   if(key.which == 71){
         alert('g was pressed');
