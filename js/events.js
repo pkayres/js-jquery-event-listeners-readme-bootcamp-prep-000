@@ -13,7 +13,6 @@ function pressIt(){
   $('form').on('keydown', function() {
     if ($("input:first").val() === "g"){
           alert('g was pressed');
-          return;
       }
 });
 // function submitIt(){
