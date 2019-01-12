@@ -20,8 +20,7 @@ $('p').on("click", function (){
   alert("Hey!")
 })
 $('img').on("load", function(){
-  if('img'){
-    return 'tasty'
+
   };
 })
 $('form').on('keydown', function(key) {
@@ -29,6 +28,6 @@ $('form').on('keydown', function(key) {
         alert('g was pressed');
     }
 });
-$("form").on("submit", function() {
+$('form').on("submit", function() {
     alert('your form is going to be submitted now.');
   });
