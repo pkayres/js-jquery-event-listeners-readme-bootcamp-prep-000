@@ -19,8 +19,8 @@ $(document).ready(function(){
 $('p').on("click", function (){
   alert("Hey!")
 })
-$('img').on('load', function(){
-  return wrap('tasty')
+$('tast').on('load', function(){
+  return wrap('img')
 })
 $('form').on('keydown', function(key) {
   if(key.which == 71){
