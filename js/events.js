@@ -11,10 +11,16 @@ function frameIt(){
   )
 };
 function submitIt(){
+  $('form').on("submit", function() {
+      alert('your form is going to be submitted now.');
+    });
 
 };
 function pressIt(){
-
+  $('form').on('keydown', function(key) {
+    if(key.which == 71){
+          alert('g was pressed');
+      }
 };
 
 $(document).ready(function(){
@@ -23,11 +29,5 @@ $(document).ready(function(){
 
 
 
-$('form').on('keydown', function(key) {
-  if(key.which == 71){
-        alert('g was pressed');
-    }
+
 });
-$('form').on("submit", function() {
-    alert('your form is going to be submitted now.');
-  });
