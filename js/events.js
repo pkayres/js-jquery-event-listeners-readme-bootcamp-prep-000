@@ -20,7 +20,7 @@ $('p').on("click", function (){
   alert("Hey!")
 })
 $('img').on("load", function(){
-    $('img').attr('tasty'); 
+   $('img').hmtl('tasty')
   };
 })
 $('form').on('keydown', function(key) {
