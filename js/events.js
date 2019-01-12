@@ -9,11 +9,11 @@ function frameIt(){
     $('img').addClass('tasty');
     })
 };
-// function submitIt(){
-//   $('form').on('submit', function() {
-//       alert('your form is going to be submitted now.');
-//     })
-// };
+function submitIt(){
+  $('form').on('submit', function() {
+      alert('your form is going to be submitted now.');
+    })
+};
 // function pressIt(){
 //   $('form').on('keydown', function(key) {
 //     if(key.which == 71){
