@@ -14,7 +14,7 @@ function pressIt(){
     if ($("input:first").val() === "g"){
           alert('g was pressed');
       }
-})
+    })
 }
 // function submitIt(){
 //   $('form').on('submit', function() {
